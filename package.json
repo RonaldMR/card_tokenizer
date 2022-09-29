@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "build": "cd tokenizer && npm install && cd .. && sam build",
+        "local": "sam local start-api"
+    }
+}
