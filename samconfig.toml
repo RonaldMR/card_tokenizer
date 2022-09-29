@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "challenge-tk"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-gp4cuv3yyckm"
+s3_prefix = "challenge-tk"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
