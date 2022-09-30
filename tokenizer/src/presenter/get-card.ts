@@ -1,7 +1,7 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 import GetCardRequestDto from '../application/dto/get-card-request-dto';
 import GetCardResponseDto from '../application/dto/get-card-response-dto';
-import { generalHandler } from '../shared/handlers/general-handler';
+import { generalHandler } from '../shared/presenter/general-handler';
 import TYPES from '../types';
 
 /**

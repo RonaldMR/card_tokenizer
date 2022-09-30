@@ -2,7 +2,7 @@ import { APIGatewayProxyEvent } from 'aws-lambda';
 import TokenizeCardRequestDto from '../application/dto/tokenize-card-request-dto';
 import TokenizeCardResponseDto from '../application/dto/tokenize-card-response-dto';
 import ValidationError from '../shared/application/validation-error';
-import { generalHandler } from '../shared/handlers/general-handler';
+import { generalHandler } from '../shared/presenter/general-handler';
 import TYPES from '../types';
 
 /**

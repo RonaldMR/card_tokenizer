@@ -1,5 +1,5 @@
-import { getCard } from './src/handlers/get-card';
-import { tokenizeCard } from './src/handlers/tokenize-card';
+import { getCard } from './src/presenter/get-card';
+import { tokenizeCard } from './src/presenter/tokenize-card';
 
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
